@@ -1,4 +1,6 @@
 wp-config.php
 .DS_store
 .DS_Store
-
+.jpg
+.jpeg
+wp-content/uploads/*
