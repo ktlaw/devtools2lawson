@@ -6,7 +6,7 @@ Version: 1.0
 Template: twentythirteen
 */
 
-@import url('../twentyseventeen/style.css');
+@import url('../twentythirteen/style.css');
 @import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,700|Lato:400,400i');
 
 /*typography changes*/
@@ -15,10 +15,27 @@ Template: twentythirteen
 font-family: 'Lato', sans-serif;*/
 
 
-body {
-	/*font-family: 'Averia Serif Libre', cursive;*/
+/*body {
+	font-family: 'Averia Serif Libre', cursive;
 	font-family: 'Lato', sans-serif;
-}
+}*/
 h1, h2, h3, h4, h5, h6, .site-title {
 	font-family: 'Averia Serif Libre', cursive;
 }
+
+/*changes 02/11/2017*/
+h1:first-child{
+    padding-top: 70px;
+}
+@media screen and (min-width: 48em).site-title {
+    font-size: 3.5rem;
+}
+.site-title, .site-title a {
+    color: #524e4e;
+}
+.site-title {
+    text-transform: none;
+}
+a:visited {
+    color: #8e3a3a;
+}*/
