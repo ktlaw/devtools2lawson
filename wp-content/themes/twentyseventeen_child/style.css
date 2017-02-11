@@ -22,3 +22,11 @@ body {
 h1, h2, h3, h4, h5, h6, .site-title {
 	font-family: 'Averia Serif Libre', cursive;
 }
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    color: #af3939;
+    font-size: 28px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
