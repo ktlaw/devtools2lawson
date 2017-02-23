@@ -14,17 +14,24 @@ Template: twentythirteen
 /*font-family: 'Averia Serif Libre', cursive;
 font-family: 'Lato', sans-serif;*/
 
-
-/*body {
+/*
+body {
 	font-family: 'Averia Serif Libre', cursive;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
 }*/
 h1, h2, h3, h4, h5, h6, .site-title {
 	font-family: 'Averia Serif Libre', cursive;
 }
+html, button, input, select, textarea {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+body {
+    color: #393844;  
+}
+
 
 /*changes 02/11/2017*/
-h1:first-child{
+/*h1:first-child{
     padding-top: 70px;
 }
 @media screen and (min-width: 48em).site-title {
@@ -35,7 +42,52 @@ h1:first-child{
 }
 .site-title {
     text-transform: none;
+}*/
+
+.site-header .home-link {
+    color: #545454;
+}
+.site-header .site-title:hover {
+    text-decoration: none;
+}
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+    color: #0628e4;
+    font-style: normal;
+}
+.nav-menu li a {
+    color: #393844;
+    font-size: 20px;
+    padding: 15px 40px;
+}
+.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
+    background-color: #808082;
+    color: #fff;
+}
+.entry-meta a {
+    color: #393844;
 }
 a:visited {
-    color: #8e3a3a;
-}*/
+    color: #393844;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
