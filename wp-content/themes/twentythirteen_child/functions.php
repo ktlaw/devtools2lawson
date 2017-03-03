@@ -21,3 +21,25 @@ function wpb_add_google_fonts() {
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 ?>
+
+<?php
+// remove default headers
+function twentythirteen_child_remove_default_headers () {
+	unregister_default_headers (array('circle', 'diamond', 'star'));
+}
+add_action('after_setup_theme', 'twentythirteen_child_remove_default_headers', 12);
+?>
+
+<?php 
+function twentythirteen_child_add_headers () {
+	register_default_headers ( array(
+		'header1' => array(
+					'url' => '%2$s/images/headers/lavender.png',
+					'thumbnail_url' => '%2$s/images/headers/lavender.png',
+					'description' => __( 'Header 1', 'twentythirteen')
+					) 
+		)); //end of array
+}//end of main function
+add_action ('after_setup_theme', 'twentythirteen_child_add_headers');
+
+?>

@@ -19,6 +19,9 @@ body {
 	font-family: 'Averia Serif Libre', cursive;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 }*/
+.site-header {
+    background: url(http://localhost:8888/devtools2lawson/wp-content/themes/twentythirteen_child/images/headers/star.png) no-repeat scroll top;
+}
 h1, h2, h3, h4, h5, h6, .site-title {
 	font-family: 'Averia Serif Libre', cursive;
 }
