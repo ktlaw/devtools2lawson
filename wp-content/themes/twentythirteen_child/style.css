@@ -19,62 +19,83 @@ body {
 	font-family: 'Averia Serif Libre', cursive;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 }*/
-.site-header {
-    background: url(http://localhost:8888/devtools2lawson/wp-content/themes/twentythirteen_child/images/headers/star.png) no-repeat scroll top;
+.site {
+    background-color: #3f3146;
 }
-h1, h2, h3, h4, h5, h6, .site-title {
+h1, .site-title {
 	font-family: 'Averia Serif Libre', cursive;
 }
-html, button, input, select, textarea {
+html, h2, h3, h4, h5, h6, button, input, select, textarea {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 110%;
 }
-body {
-    color: #393844;  
+body, .entry-title a, .site-footer .widget a {
+    color: #d2d2d2;  
 }
-
-
-/*changes 02/11/2017*/
-/*h1:first-child{
-    padding-top: 70px;
+.entry-content h2 {
+    font-size: 25px;
 }
-@media screen and (min-width: 48em).site-title {
-    font-size: 3.5rem;
-}
-.site-title, .site-title a {
-    color: #524e4e;
-}
-.site-title {
-    text-transform: none;
-}*/
-
 .site-header .home-link {
     color: #545454;
 }
 .site-header .site-title:hover {
     text-decoration: none;
 }
+.navbar {
+    background-color: #5f5763;
+}
 .nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
-    color: #0628e4;
+    /*color: #540086;*/
+    background-color: #353535;
+    color: #fff;
     font-style: normal;
 }
 .nav-menu li a {
-    color: #393844;
-    font-size: 20px;
-    padding: 15px 40px;
+    color: #d2d2cd;
+    font-size: 23px;
+    padding: 30px 50px;
 }
 .nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
-    background-color: #808082;
-    color: #fff;
+   /* background-color: #353535;
+    color: #fff;*/
+    background-color: #5f5763;
+    color: #d24a4a;
+    text-decoration: none;
 }
 .entry-meta a {
     color: #393844;
 }
-a:visited {
+/*a:visited {
     color: #393844;
+}*/
+.site-header .search-form {
+    top: 20px;
 }
-
-
-
+.entry-title a:hover, .entry-content a, .comment-content a, .site-footer .widget a, .entry-content a:hover, .comment-content a:hover, .navigation a, .navigation a:hover {
+    color: #d24a4a;
+}
+.navigation a:hover {
+    text-decoration: underline;
+}
+.post-navigation {
+    font-style: normal;
+    font-weight: 400;
+}
+/*.entry-title a {
+    color: #d2d2d2;
+}*/
+.site-footer .sidebar-container {
+    background-color: #d2d2d2;
+}
+.site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {
+    color: #333;
+}
+.widget .widget-title {
+    font: 300 20px "Averia Serif Libre", cursive;
+}
+/*.entry-content a, .comment-content a, .site-footer .widget a {
+    color: #d24a4a;
+}*/
 
 
 
