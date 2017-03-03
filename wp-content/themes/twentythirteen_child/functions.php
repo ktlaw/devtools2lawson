@@ -31,12 +31,23 @@ add_action('after_setup_theme', 'twentythirteen_child_remove_default_headers', 1
 ?>
 
 <?php 
+// add new header images
 function twentythirteen_child_add_headers () {
 	register_default_headers ( array(
 		'header1' => array(
-					'url' => '%2$s/images/headers/lavender.png',
-					'thumbnail_url' => '%2$s/images/headers/lavender.png',
+					'url' => '%2$s/images/headers/purpleflower.png',
+					'thumbnail_url' => '%2$s/images/headers/purpleflower.png',
 					'description' => __( 'Header 1', 'twentythirteen')
+					), 
+		'header2' => array(
+					'url' => '%2$s/images/headers/purplerock.png',
+					'thumbnail_url' => '%2$s/images/headers/purplerock.png',
+					'description' => __( 'Header 2', 'twentythirteen')
+					), 
+		'header3' => array(
+					'url' => '%2$s/images/headers/purpleclouds.png',
+					'thumbnail_url' => '%2$s/images/headers/purpleclouds.png',
+		 			'description' => __( 'Header 3', 'twentythirteen')
 					) 
 		)); //end of array
 }//end of main function
